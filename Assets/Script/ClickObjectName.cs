@@ -117,6 +117,8 @@ public class ClickObjectName : MonoBehaviour
         touchCnt = 0;
         CorrCnt += 1; // 맞은 수 1 증가 
         correct = true;
+
+
         GameObject empty1 = Instantiate(preFab); // 맞춘 카드에 대한 터치를 막기위하여
         // 프리팹을만들어서 앞에 올려둠으로써 터치를 제한함. 
         GameObject empty2 = Instantiate(preFab);

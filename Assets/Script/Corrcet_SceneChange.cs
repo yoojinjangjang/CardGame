@@ -20,7 +20,6 @@ public class Corrcet_SceneChange : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void Update()
     {
         CorrCnt = this.GetComponent<ClickObjectName>().CorrCnt;

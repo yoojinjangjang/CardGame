@@ -233,8 +233,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9, y: 0.000015259}
-  m_SizeDelta: {x: 816.6655, y: 133.80557}
+  m_AnchoredPosition: {x: 9.3, y: 16.6}
+  m_SizeDelta: {x: 818.58655, y: 167.06937}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &835653874
 MonoBehaviour:
@@ -257,11 +257,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 80
+    m_FontSize: 90
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 8
-    m_MaxSize: 80
+    m_MinSize: 7
+    m_MaxSize: 90
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -313,8 +313,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000022888, y: -119}
-  m_SizeDelta: {x: 245.16595, y: 64.07414}
+  m_AnchoredPosition: {x: -0.000025749, y: -134}
+  m_SizeDelta: {x: 241.44379, y: 65.117775}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &917048622
 MonoBehaviour:
@@ -441,8 +441,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -302, y: 74}
-  m_SizeDelta: {x: 123.42059, y: 93.611115}
+  m_AnchoredPosition: {x: -305, y: 84}
+  m_SizeDelta: {x: 122.15579, y: 90.74492}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1009897098
 MonoBehaviour:
@@ -599,8 +599,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 272, y: 57}
-  m_SizeDelta: {x: 117.033264, y: 93.61157}
+  m_AnchoredPosition: {x: 318, y: 84}
+  m_SizeDelta: {x: 105.26648, y: 90.74478}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1336390340
 MonoBehaviour:
@@ -852,7 +852,7 @@ Transform:
   m_GameObject: {fileID: 2011494625}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.009, y: -0.025, z: 0}
-  m_LocalScale: {x: 1.6932572, y: 1.2750549, z: 1}
+  m_LocalScale: {x: 1.73, y: 1.2750549, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -905,12 +905,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
