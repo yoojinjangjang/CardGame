@@ -32,8 +32,8 @@ public class ClickObjectName : MonoBehaviour
     {
         
         if(Input.GetMouseButtonDown(0) && exitPanel.activeSelf == false && touchCnt <=1
-            && (obj.GetComponent<Practice>().count >= obj.GetComponent<Practice>().hide_time)) 
-            // 패널이 활성화가 안되었을떄만 터치 카드 조사
+            && (obj.GetComponent<FlipCard>().count >= obj.GetComponent<FlipCard>().hide_time)) 
+            // 패널이 활성화가 안되었을때, 터치 카드수가 2개 이하 , 터치 카드 조사
         {
             Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             RaycastHit2D hit = Physics2D.Raycast(pos, Vector2.zero); // 마우스의 위치 파악
@@ -59,7 +59,7 @@ public class ClickObjectName : MonoBehaviour
                 if (img[0].sprite.name != img[1].sprite.name)
                 {  //두카드가 같지않으면
                     
-                    Invoke("disappear", 4); //4초뒤에 사라지는 함수 실행
+                    Invoke("disappear", 1); //4초뒤에 사라지는 함수 실행 ------------------------ 수정
                     
                 }
                 else if (img[0] == img[1]){ //동일한 카드 클릭시 (예외)
@@ -68,7 +68,7 @@ public class ClickObjectName : MonoBehaviour
                 }
                 else if(img[0].sprite.name == img[1].sprite.name)
                 {
-                    Invoke("make_touch_0", 4); //그림이 같을 경우 4초뒤에 touch 수 0으로 갱신
+                    Invoke("make_touch_0", 1); //그림이 같을 경우 4초뒤에 touch 수 0으로 갱신 ------------------- 수정
                     
    
                 }
